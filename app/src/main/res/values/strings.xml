@@ -6,4 +6,6 @@
     <string name="the_image_will_be_here">The image will be here</string>
     <string name="write_your_url_here">Write your URL here</string>
     <string name="load_image">Load image</string>
+    <string name="back">Back</string>
+    <string name="paste_url_here">Paste URL here</string>
 </resources>
