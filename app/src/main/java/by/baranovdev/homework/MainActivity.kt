@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
             findViewById<Button>(R.id.button_homework_3)
         )
 
-        var intent = Intent(this, ImageLoaderActivity::class.java)
+        val intent = Intent(this, ImageLoaderActivity::class.java)
 
         buttons[0].setOnClickListener {
             startActivity(intent)
