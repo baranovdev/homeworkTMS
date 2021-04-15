@@ -11,16 +11,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val buttons : Array<Button> = arrayOf(
+        val buttons: Array<Button> = arrayOf(
             findViewById<Button>(R.id.button_homework_1),
             findViewById<Button>(R.id.button_homework_2),
             findViewById<Button>(R.id.button_homework_3)
         )
 
-        val intent = Intent(this, ImageLoaderActivity::class.java)
+        val intentFirst = Intent(this, ImageLoaderActivity::class.java)
+        val intentSecond = Intent(this, SecondHomeworkActivity::class.java)
 
         buttons[0].setOnClickListener {
-            startActivity(intent)
+            startActivity(intentFirst)
+        }
+        buttons[1].setOnClickListener {
+            startActivity(intentSecond)
         }
     }
 }
