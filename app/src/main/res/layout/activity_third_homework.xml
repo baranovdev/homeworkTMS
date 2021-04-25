@@ -16,6 +16,7 @@
         tools:layout_editor_absoluteX="16dp">
 
         <TextView
+            android:id="@+id/first_region_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#D14646"
@@ -105,6 +106,7 @@
         tools:layout_editor_absoluteX="16dp">
 
         <TextView
+            android:id="@+id/second_region_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#D14646"
@@ -193,6 +195,7 @@
         tools:layout_editor_absoluteX="16dp">
 
         <TextView
+            android:id="@+id/third_region_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#D14646"
