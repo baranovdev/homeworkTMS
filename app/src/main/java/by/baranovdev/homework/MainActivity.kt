@@ -19,12 +19,16 @@ class MainActivity : AppCompatActivity() {
 
         val intentFirst = Intent(this, ImageLoaderActivity::class.java)
         val intentSecond = Intent(this, SecondHomeworkActivity::class.java)
+        val intentThird = Intent(this, ThirdHomeworkActivity::class.java)
 
         buttons[0].setOnClickListener {
             startActivity(intentFirst)
         }
         buttons[1].setOnClickListener {
             startActivity(intentSecond)
+        }
+        buttons[2].setOnClickListener{
+            startActivity(intentThird)
         }
     }
 }

@@ -16,4 +16,11 @@
     <string name="latvia">Latvia</string>
     <string name="denmark">Denmark</string>
     <string name="spain">Spain</string>
+    <string name="minsk_region">Minsk region</string>
+    <string name="wheat">Wheat</string>
+    <string name="rye">Rye</string>
+    <string name="oats">Oats</string>
+    <string name="null_string">0</string>
+    <string name="vitebsk_region">Vitebsk region</string>
+    <string name="gomel_region">Gomel region</string>
 </resources>
