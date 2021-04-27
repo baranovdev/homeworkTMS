@@ -3,7 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#4E4E4E"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
@@ -28,8 +27,8 @@
         android:padding="16dp"
         android:text="@string/homework_2"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_homework_3"
+        app:layout_constraintTop_toBottomOf="@id/button_homework_1"
         tools:layout_editor_absoluteX="16dp" />
 
     <Button
@@ -40,8 +39,20 @@
         android:padding="16dp"
         android:text="@string/homework_3"
         android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button_homework_4"
         app:layout_constraintTop_toBottomOf="@+id/button_homework_2"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <Button
+        android:id="@+id/button_homework_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/double_margin"
+        android:padding="16dp"
+        android:text="@string/homework_4"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_homework_3"
         tools:layout_editor_absoluteX="16dp" />
 
 
