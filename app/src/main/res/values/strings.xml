@@ -23,4 +23,15 @@
     <string name="null_string">0</string>
     <string name="vitebsk_region">Vitebsk region</string>
     <string name="gomel_region">Gomel region</string>
+    <string name="species">species</string>
+    <string name="color">color</string>
+    <string name="height">height</string>
+    <string name="add_snowdrop">Add snowdrop</string>
+    <string name="url">image URL</string>
+    <string name="species_text">Species :</string>
+    <string name="color_text">Color :</string>
+    <string name="height_text">Height :</string>
+    <string name="add">add</string>
+    <string name="homework_4">homework 4</string>
+    <string name="collection">Collection</string>
 </resources>

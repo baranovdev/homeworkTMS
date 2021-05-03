@@ -1,10 +1,11 @@
-package by.baranovdev.homework
+package by.baranovdev.homework.HW3
 
 import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
+import by.baranovdev.homework.R
 import kotlinx.android.synthetic.main.activity_third_homework.*
 import kotlinx.coroutines.cancel
 
