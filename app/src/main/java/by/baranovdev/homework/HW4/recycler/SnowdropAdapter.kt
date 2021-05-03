@@ -21,12 +21,12 @@ class SnowdropAdapter(val snowdrops:List<Snowdrop>) : RecyclerView.Adapter<Snowd
             Picasso.get().load(snowdrop.imageURL).into(itemView.findViewById<ImageView>(R.id.card_image))
             itemView.findViewById<TextView>(R.id.card_species).text = snowdrop.species
             itemView.findViewById<TextView>(R.id.card_color).text = snowdrop.color
-            itemView.findViewById<TextView>(R.id.card_height).text = snowdrop.height.toString()
+            itemView.findViewById<TextView>(R.id.card_height).text = snowdrop.height.toInt().toString()
         }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): SnowdropViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.fragment_snowdrop_catalog, parent, false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.item_snowdrop, parent, false)
         return SnowdropViewHolder(view)
     }
 

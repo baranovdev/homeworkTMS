@@ -10,6 +10,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import by.baranovdev.homework.R
 import com.google.android.material.slider.Slider
+import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
 import kotlinx.android.synthetic.*
@@ -40,6 +41,7 @@ class SnowdropAddFragment : Fragment(){
                 url.text.toString(),
                 height.value.toString().toDouble()
             )
+            Snackbar.make(view, "Your snowdrop is added", Snackbar.LENGTH_SHORT)
         }
 
     }

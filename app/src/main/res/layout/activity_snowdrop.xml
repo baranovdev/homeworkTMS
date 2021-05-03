@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/background_snowdrop"
     android:layout_height="match_parent"
     tools:context=".HW4.SnowdropActivity">
 
@@ -16,7 +17,6 @@
 
     <Button
         android:id="@+id/button_to_add_fragment"
-        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/add"
@@ -26,10 +26,9 @@
         app:layout_constraintStart_toEndOf="@+id/button_to_show_fragment" />
     <Button
         android:id="@+id/button_to_show_fragment"
-        style="?attr/materialButtonOutlinedStyle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="@string/add_snowdrop"
+        android:text="@string/collection"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_margin="16dp"

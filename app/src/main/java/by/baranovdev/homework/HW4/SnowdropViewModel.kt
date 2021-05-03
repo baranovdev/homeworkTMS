@@ -6,8 +6,8 @@ class SnowdropViewModel : ViewModel() {
 
     private val snowdropList = ArrayList<Snowdrop>()
 
-    fun addSnowdrop(species: String, color: String, url: String, height: Double, ) {
-        snowdropList.add(Snowdrop(species, color, height, url))
+    fun addSnowdrop(species: String, color: String, url: String, height: Double ) {
+        snowdropList.add(Snowdrop(species, color, url, height))
     }
 
     fun getSnowdrops(): List<Snowdrop> {
