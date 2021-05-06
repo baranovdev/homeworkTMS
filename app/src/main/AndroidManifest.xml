@@ -14,7 +14,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework">
-        <activity android:name=".HW4.SnowdropActivity"/>
+        <activity android:name=".HW5.LoggedActivity"></activity>
+        <activity android:name=".HW5.HW5Activity" />
+        <activity android:name=".HW4.SnowdropActivity" />
         <activity android:name=".HW3.ThirdHomeworkActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
