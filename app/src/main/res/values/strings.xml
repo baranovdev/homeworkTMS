@@ -41,4 +41,14 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="welcome">Welcome</string>
     <string name="homework_5">homework 5</string>
+    <string name="rotate">Перевернуть открытку</string>
+    <string name="day">С ДНЕМ</string>
+    <string name="of_victory">ПОБЕДЫ</string>
+    <string name="cong_line_1">ЭТОТ ДЕНЬ ПОБЕДЫ</string>
+    <string name="cong_line_2">ПОРОХОМ ПРОПАХ !</string>
+    <string name="cong_line_3">ЭТО ПРАЗДНИК</string>
+    <string name="cong_line_4">С СЕДИНОЮ НА ВИСКАХ</string>
+    <string name="cong_line_5">ЭТО РАДОСТЬ</string>
+    <string name="cong_line_6">СО СЛЕЗАМИ НА ГЛАЗАХ.</string>
+    <string name="cong_line_7">ДЕНЬ ПОБЕДЫ !</string>
 </resources>
