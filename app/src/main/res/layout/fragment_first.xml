@@ -2,15 +2,18 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/h_w6"
-    android:background="@color/teal_700"
+    android:id="@+id/hw6_first_layout"
+    android:clickable="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/teal_700"
+    android:focusable="true">
 
     <TextView
+        android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@drawable/bahnschrift"
+        android:fontFamily="@font/bahnschrift"
         android:gravity="center"
         android:text="@string/day"
         android:textColor="@color/white"
@@ -22,11 +25,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:fontFamily="@drawable/bahnschrift"
+        android:fontFamily="@font/bahnschrift"
         android:gravity="center"
         android:text="@string/of_victory"
         android:textColor="@color/white"
-        android:textSize="84sp"
+        android:textSize="72sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -38,7 +41,6 @@
         android:src="@drawable/tank"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
 
 

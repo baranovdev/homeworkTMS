@@ -6,12 +6,10 @@ import androidx.lifecycle.ViewModel
 
 class HW6ViewModel : ViewModel() {
 
+    var isFirstLaunch = true
 
-    private val isOnFirstFragment: MutableLiveData<Boolean> = MutableLiveData(true)
-    var _isOnFirstFragment = isOnFirstFragment
-
-    fun setLD(){
-        isOnFirstFragment.value = isOnFirstFragment.value?.not()
+    fun changeState(){
+        isFirstLaunch = !isFirstLaunch
     }
 
 }

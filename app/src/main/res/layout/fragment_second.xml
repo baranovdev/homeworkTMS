@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:background="@color/white"
+    android:id="@+id/hw6_second_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:focusable="true">
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -18,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_1"
             android:textColor="@color/black"
@@ -30,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_2"
             android:textColor="@color/black"
@@ -42,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_3"
             android:textColor="@color/black"
@@ -54,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_4"
             android:textColor="@color/black"
@@ -76,7 +80,7 @@
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
-        android:layout_height="170sp"
+        android:layout_height="160sp"
         android:orientation="vertical"
         android:padding="@dimen/double_margin"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -86,11 +90,11 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_5"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,11 +103,11 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_6"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
@@ -112,11 +116,11 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_7"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -124,22 +128,23 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_7"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
-            android:fontFamily="@drawable/bahnschrift"
+            android:fontFamily="@font/bahnschrift"
             android:gravity="center"
             android:text="@string/cong_line_7"
             android:textColor="@color/black"
-            android:textSize="24sp"
+            android:textSize="18sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>

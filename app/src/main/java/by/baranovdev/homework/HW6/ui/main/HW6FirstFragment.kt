@@ -8,6 +8,10 @@ import android.view.View
 import android.view.ViewGroup
 import by.baranovdev.homework.R
 import android.view.MotionEvent
+import android.widget.Button
+import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.navigation.Navigation
+import androidx.navigation.Navigation.findNavController
 import androidx.navigation.fragment.findNavController
 
 class HW6FirstFragment : Fragment(){
@@ -26,10 +30,13 @@ class HW6FirstFragment : Fragment(){
         return inflater.inflate(R.layout.fragment_first, container, false)
     }
 
+
+
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(HW6ViewModel::class.java)
-        viewModel._isOnFirstFragment.observe(viewLifecycleOwner){
+
+        view?.findViewById<ConstraintLayout>(R.id.hw6_first_layout)?.setOnClickListener{
             findNavController().navigate(R.id.showSecondFragment)
         }
     }
