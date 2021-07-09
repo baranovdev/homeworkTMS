@@ -23,4 +23,33 @@
     <string name="null_string">0</string>
     <string name="vitebsk_region">Vitebsk region</string>
     <string name="gomel_region">Gomel region</string>
+    <string name="species">species</string>
+    <string name="color">color</string>
+    <string name="height">height</string>
+    <string name="add_snowdrop">Add snowdrop</string>
+    <string name="url">image URL</string>
+    <string name="species_text">Species :</string>
+    <string name="color_text">Color :</string>
+    <string name="height_text">Height :</string>
+    <string name="add">add</string>
+    <string name="homework_4">homework 4</string>
+    <string name="collection">Collection</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Welcome</string>
+    <string name="homework_5">homework 5</string>
+    <string name="day">С ДНЕМ</string>
+    <string name="of_victory">ПОБЕДЫ</string>
+    <string name="cong_line_1">ЭТОТ ДЕНЬ ПОБЕДЫ</string>
+    <string name="cong_line_2">ПОРОХОМ ПРОПАХ !</string>
+    <string name="cong_line_3">ЭТО ПРАЗДНИК</string>
+    <string name="cong_line_4">С СЕДИНОЮ НА ВИСКАХ</string>
+    <string name="cong_line_5">ЭТО РАДОСТЬ</string>
+    <string name="cong_line_6">СО СЛЕЗАМИ НА ГЛАЗАХ.</string>
+    <string name="cong_line_7">ДЕНЬ ПОБЕДЫ !</string>
+    <string name="homework_6">homework 6</string>
+    <string name="rotate">Перевернуть открытку</string>
 </resources>

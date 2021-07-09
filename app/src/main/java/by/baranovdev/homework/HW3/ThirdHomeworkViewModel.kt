@@ -1,4 +1,4 @@
-package by.baranovdev.homework
+package by.baranovdev.homework.HW3
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

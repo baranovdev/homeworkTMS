@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
     package="by.baranovdev.homework">
+
+    <dist:module dist:instant="true" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,7 +14,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Homework">
-        <activity android:name=".ThirdHomeworkActivity"/>
+        <activity android:name=".HW6.HW6Activity"></activity>
+        <activity android:name=".HW5.LoggedActivity" />
+        <activity android:name=".HW5.HW5Activity" />
+        <activity android:name=".HW4.SnowdropActivity" />
+        <activity android:name=".HW3.ThirdHomeworkActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,10 +26,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageLoaderActivity" />
-        <activity android:name=".SecondHomeworkActivity" />
-        <activity android:name=".FlagsActivity" />
-        <activity android:name=".AnimationActivity" />
+        <activity android:name=".HW1.ImageLoaderActivity" />
+        <activity android:name=".HW2.SecondHomeworkActivity" />
+        <activity android:name=".HW2.FlagsActivity" />
+        <activity android:name=".HW2.AnimationActivity" />
     </application>
 
 </manifest>

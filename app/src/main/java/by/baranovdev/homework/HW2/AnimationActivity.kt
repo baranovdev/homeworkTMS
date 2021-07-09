@@ -1,10 +1,10 @@
-package by.baranovdev.homework
+package by.baranovdev.homework.HW2
 
 import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
+import by.baranovdev.homework.R
 
 class AnimationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
